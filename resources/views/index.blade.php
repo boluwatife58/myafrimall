@@ -5,8 +5,8 @@
 <body class="font-sans">
         <!-- Header -->
         <header class="w-full md:w-11/12 xl:w-3/4 h-[10vh] flex justify-between items-center mx-auto p-5">
-            <div class="w-2/5 md:w-1/6 lg:w-2/5">
-                <img src="assets/logo.jpg" class="logo " alt="Myafrimall logo">
+            <div class="w-2/5 md:w-1/6">
+                <img src="{{ asset('images/MyAfrimall.png') }}" class="logo " alt="Myafrimall logo" class="w-full h-auto">
             </div>
         </header>
         
@@ -93,9 +93,9 @@
             </div>
         
             <!-- TRACKING ORDERS TABLE -->
-            <div class="w-full bg-gray1 p-5 md:p-10 mt-[50px] mb-[100px] align-middle">
-                <table class="min-w-full table-fixed block whitespace-nowrap overflow-x-scroll md:overflow-x-auto">
-                    <thead class="bg-gray2 rounded-xl mb-4">
+            <div class="w-full bg-gray1 p-5 md:p-10 mt-[50px] mb-[100px] align-middle flex justify-center align-center">
+                <table class=" w-full table-fixed whitespace-nowrap block overflow-x-scroll md:overflow-x-auto mx-auto">
+                    <thead class="w-full bg-gray2 rounded-xl mb-4  text-center">
                         <tr>  
                             <th scope="col" class="p-3 text-sm font-semibold text-left">
                                 <input type="checkbox" name="#" id="#">
@@ -113,13 +113,13 @@
                                 Details
                             </th>
 
-                            <th scope="col" class="p-4 text-sm font-semibold text-left">
+                            <th scope="col" class="p-4 text-sm font-semibold text-left w-full">
                                 Remark
                             </th>
                         </tr>
                     </thead>
 
-                    <tbody class="bg-white divide-y divide-[#E9E5E5]">
+                    <tbody class="w-full bg-white divide-y divide-[#E9E5E5]">
                         <tr class="hover:bg-slate-50">
                             <td class="p-4 text-sm font-normal">
                                 <input type="checkbox" name="#" id="#">
